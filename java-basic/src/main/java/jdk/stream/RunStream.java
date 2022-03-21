@@ -1,10 +1,10 @@
-package stream;
+package jdk.stream;
 
 import java.util.Random;
 import java.util.stream.Stream;
 
 /**
- * stream 流的运行机制
+ * jdk.stream 流的运行机制
  * 1.所有操作是链式调用，一个元素只迭代一次
  * 2.每个操作返回一个新的流，流里的有一个属性sourceStage执行指向同一个地方，(Head)
  * head->nextStage->nextStage->...->null

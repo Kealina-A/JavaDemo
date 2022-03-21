@@ -1,4 +1,4 @@
-package lambda;
+package jdk.lambda;
 
 @FunctionalInterface //加了些注解，接口里要实现的方法只有一个，并不是只能有一个方法。单一职责
 interface Interface1 {

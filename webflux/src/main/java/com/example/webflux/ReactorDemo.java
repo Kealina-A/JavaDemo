@@ -11,7 +11,7 @@ public class ReactorDemo {
 
     public static void main (String[] args) {
 
-        // mono : jdk8 stream + jdk9 reactive stream
+        // mono : jdk8 jdk.stream + jdk9 reactive jdk.stream
         // mono : 0-1 个元素
         // flux : 1-n 个元素
 

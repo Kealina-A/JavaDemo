@@ -1,4 +1,4 @@
-package lambda;
+package jdk.lambda;
 
 import java.text.DecimalFormat;
 import java.util.function.Function;

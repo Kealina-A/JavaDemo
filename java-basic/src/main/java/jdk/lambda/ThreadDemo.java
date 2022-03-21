@@ -1,4 +1,4 @@
-package lambda;
+package jdk.lambda;
 
 public class ThreadDemo {
 
@@ -12,7 +12,7 @@ public class ThreadDemo {
         };
         new Thread(runnable).start();
 
-        // lambda
+        // jdk.lambda
         new Thread(()-> System.out.println("ok")).start();
     }
 }
