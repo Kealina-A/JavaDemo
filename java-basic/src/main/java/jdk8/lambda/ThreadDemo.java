@@ -1,4 +1,4 @@
-package jdk.lambda;
+package jdk8.lambda;
 
 public class ThreadDemo {
 
@@ -12,7 +12,7 @@ public class ThreadDemo {
         };
         new Thread(runnable).start();
 
-        // jdk.lambda
+        // jdk8.lambda
         new Thread(()-> System.out.println("ok")).start();
     }
 }

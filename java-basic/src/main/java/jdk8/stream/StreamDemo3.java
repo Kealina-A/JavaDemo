@@ -1,4 +1,4 @@
-package jdk.stream;
+package jdk8.stream;
 
 import java.util.Arrays;
 import java.util.List;

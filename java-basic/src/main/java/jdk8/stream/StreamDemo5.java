@@ -1,4 +1,4 @@
-package jdk.stream;
+package jdk8.stream;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.stream.IntStream;

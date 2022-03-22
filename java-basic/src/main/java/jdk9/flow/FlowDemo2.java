@@ -1,4 +1,4 @@
-package jdk.jdk9flow;
+package jdk9.flow;
 
 
 import java.util.concurrent.Flow;

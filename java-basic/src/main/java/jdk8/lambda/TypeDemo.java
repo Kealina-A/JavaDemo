@@ -1,4 +1,4 @@
-package jdk.lambda;
+package jdk8.lambda;
 
 interface IMath {
 

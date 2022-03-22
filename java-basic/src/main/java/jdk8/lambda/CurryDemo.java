@@ -1,4 +1,4 @@
-package jdk.lambda;
+package jdk8.lambda;
 
 import java.util.function.Function;
 

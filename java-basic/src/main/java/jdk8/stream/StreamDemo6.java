@@ -1,4 +1,4 @@
-package jdk.stream;
+package jdk8.stream;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -81,7 +81,7 @@ public class StreamDemo6 {
             new Student("小蓝",16,Gender.FEMALE,Grade.FOUR),
             new Student("小紫",19,Gender.MALE,Grade.THREE));
 
-//        List<Integer> collect = students.jdk.stream().map(Student :: getAge).collect(Collectors.toList());
+//        List<Integer> collect = students.jdk8.stream().map(Student :: getAge).collect(Collectors.toList());
         Collection<Integer> collect = students.stream().map(Student :: getAge).collect(Collectors.toCollection(TreeSet::new));
         System.out.println("所有学生的年龄："+collect);
 
