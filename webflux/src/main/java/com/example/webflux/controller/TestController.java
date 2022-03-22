@@ -1,4 +1,4 @@
-package com.example.webflux;
+package com.example.webflux.controller;
 
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

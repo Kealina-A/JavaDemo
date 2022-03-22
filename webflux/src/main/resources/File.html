@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>单文件上传</h1>
+<form method="post" enctype="multipart/form-data" action="http://localhost:8888/file/upload/single">
+    <p>请选择要上传的文件：</p>
+    <p><input type="file" name="file"></p>
+    <p><input type="submit" value="上传"></p>
+</form>
+
+<h1>多文件上传</h1>
+<form method="post" enctype="multipart/form-data" action="http://localhost:8888/file/upload/multi">
+    <p>请选择要上传的文件：</p>
+    <p><input type="file" name="files" multiple="multiple"></p>
+    <p><input type="submit" value="上传"></p>
+</form>
+
+
+</body>
+</html>

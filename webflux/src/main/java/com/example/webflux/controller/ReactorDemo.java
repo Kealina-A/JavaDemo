@@ -1,4 +1,4 @@
-package com.example.webflux;
+package com.example.webflux.controller;
 
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
