@@ -19,5 +19,7 @@ public class Concurrency {
                 .subscribe(elements::add);
 
         System.out.println(elements);
+
+
     }
 }

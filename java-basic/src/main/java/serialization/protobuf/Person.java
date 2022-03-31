@@ -369,7 +369,7 @@ private static final long serialVersionUID = 0L;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (bs.isValidUtf8()) {
@@ -387,7 +387,7 @@ private static final long serialVersionUID = 0L;
         getNumberBytes() {
       java.lang.Object ref = number_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         number_ = b;
@@ -789,7 +789,7 @@ private static final long serialVersionUID = 0L;
           getNumberBytes() {
         java.lang.Object ref = number_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           number_ = b;
@@ -955,7 +955,7 @@ private static final long serialVersionUID = 0L;
     if (ref instanceof java.lang.String) {
       return (java.lang.String) ref;
     } else {
-      com.google.protobuf.ByteString bs = 
+      com.google.protobuf.ByteString bs =
           (com.google.protobuf.ByteString) ref;
       java.lang.String s = bs.toStringUtf8();
       if (bs.isValidUtf8()) {
@@ -973,7 +973,7 @@ private static final long serialVersionUID = 0L;
       getNameBytes() {
     java.lang.Object ref = name_;
     if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
+      com.google.protobuf.ByteString b =
           com.google.protobuf.ByteString.copyFromUtf8(
               (java.lang.String) ref);
       name_ = b;
@@ -1022,7 +1022,7 @@ private static final long serialVersionUID = 0L;
     if (ref instanceof java.lang.String) {
       return (java.lang.String) ref;
     } else {
-      com.google.protobuf.ByteString bs = 
+      com.google.protobuf.ByteString bs =
           (com.google.protobuf.ByteString) ref;
       java.lang.String s = bs.toStringUtf8();
       if (bs.isValidUtf8()) {
@@ -1040,7 +1040,7 @@ private static final long serialVersionUID = 0L;
       getEmailBytes() {
     java.lang.Object ref = email_;
     if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
+      com.google.protobuf.ByteString b =
           com.google.protobuf.ByteString.copyFromUtf8(
               (java.lang.String) ref);
       email_ = b;
@@ -1063,7 +1063,7 @@ private static final long serialVersionUID = 0L;
    * <code>repeated .tutorial.Person.PhoneNumber phones = 4;</code>
    */
   @java.lang.Override
-  public java.util.List<? extends serialization.protobuf.Person.PhoneNumberOrBuilder> 
+  public java.util.List<? extends serialization.protobuf.Person.PhoneNumberOrBuilder>
       getPhonesOrBuilderList() {
     return phones_;
   }
@@ -1473,7 +1473,7 @@ private static final long serialVersionUID = 0L;
             phonesBuilder_ = null;
             phones_ = other.phones_;
             bitField0_ = (bitField0_ & ~0x00000008);
-            phonesBuilder_ = 
+            phonesBuilder_ =
               com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                  getPhonesFieldBuilder() : null;
           } else {
@@ -1545,7 +1545,7 @@ private static final long serialVersionUID = 0L;
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -1668,7 +1668,7 @@ private static final long serialVersionUID = 0L;
         getEmailBytes() {
       java.lang.Object ref = email_;
       if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         email_ = b;
@@ -1913,7 +1913,7 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .tutorial.Person.PhoneNumber phones = 4;</code>
      */
-    public java.util.List<? extends serialization.protobuf.Person.PhoneNumberOrBuilder> 
+    public java.util.List<? extends serialization.protobuf.Person.PhoneNumberOrBuilder>
          getPhonesOrBuilderList() {
       if (phonesBuilder_ != null) {
         return phonesBuilder_.getMessageOrBuilderList();
@@ -1939,12 +1939,12 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .tutorial.Person.PhoneNumber phones = 4;</code>
      */
-    public java.util.List<serialization.protobuf.Person.PhoneNumber.Builder> 
+    public java.util.List<serialization.protobuf.Person.PhoneNumber.Builder>
          getPhonesBuilderList() {
       return getPhonesFieldBuilder().getBuilderList();
     }
     private com.google.protobuf.RepeatedFieldBuilderV3<
-        serialization.protobuf.Person.PhoneNumber, serialization.protobuf.Person.PhoneNumber.Builder, serialization.protobuf.Person.PhoneNumberOrBuilder> 
+        serialization.protobuf.Person.PhoneNumber, serialization.protobuf.Person.PhoneNumber.Builder, serialization.protobuf.Person.PhoneNumberOrBuilder>
         getPhonesFieldBuilder() {
       if (phonesBuilder_ == null) {
         phonesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<

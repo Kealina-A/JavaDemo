@@ -55,7 +55,7 @@ public interface PersonOrBuilder extends
   /**
    * <code>repeated .tutorial.Person.PhoneNumber phones = 4;</code>
    */
-  java.util.List<serialization.protobuf.Person.PhoneNumber> 
+  java.util.List<serialization.protobuf.Person.PhoneNumber>
       getPhonesList();
   /**
    * <code>repeated .tutorial.Person.PhoneNumber phones = 4;</code>
@@ -68,7 +68,7 @@ public interface PersonOrBuilder extends
   /**
    * <code>repeated .tutorial.Person.PhoneNumber phones = 4;</code>
    */
-  java.util.List<? extends serialization.protobuf.Person.PhoneNumberOrBuilder> 
+  java.util.List<? extends serialization.protobuf.Person.PhoneNumberOrBuilder>
       getPhonesOrBuilderList();
   /**
    * <code>repeated .tutorial.Person.PhoneNumber phones = 4;</code>

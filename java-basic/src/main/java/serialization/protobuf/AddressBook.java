@@ -107,7 +107,7 @@ private static final long serialVersionUID = 0L;
    * <code>repeated .tutorial.Person person = 1;</code>
    */
   @java.lang.Override
-  public java.util.List<? extends serialization.protobuf.PersonOrBuilder> 
+  public java.util.List<? extends serialization.protobuf.PersonOrBuilder>
       getPersonOrBuilderList() {
     return person_;
   }
@@ -438,7 +438,7 @@ private static final long serialVersionUID = 0L;
             personBuilder_ = null;
             person_ = other.person_;
             bitField0_ = (bitField0_ & ~0x00000001);
-            personBuilder_ = 
+            personBuilder_ =
               com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                  getPersonFieldBuilder() : null;
           } else {
@@ -671,7 +671,7 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .tutorial.Person person = 1;</code>
      */
-    public java.util.List<? extends serialization.protobuf.PersonOrBuilder> 
+    public java.util.List<? extends serialization.protobuf.PersonOrBuilder>
          getPersonOrBuilderList() {
       if (personBuilder_ != null) {
         return personBuilder_.getMessageOrBuilderList();
@@ -697,12 +697,12 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .tutorial.Person person = 1;</code>
      */
-    public java.util.List<serialization.protobuf.Person.Builder> 
+    public java.util.List<serialization.protobuf.Person.Builder>
          getPersonBuilderList() {
       return getPersonFieldBuilder().getBuilderList();
     }
     private com.google.protobuf.RepeatedFieldBuilderV3<
-        serialization.protobuf.Person, serialization.protobuf.Person.Builder, serialization.protobuf.PersonOrBuilder> 
+        serialization.protobuf.Person, serialization.protobuf.Person.Builder, serialization.protobuf.PersonOrBuilder>
         getPersonFieldBuilder() {
       if (personBuilder_ == null) {
         personBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<

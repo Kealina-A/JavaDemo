@@ -10,7 +10,7 @@ public interface AddressBookOrBuilder extends
   /**
    * <code>repeated .tutorial.Person person = 1;</code>
    */
-  java.util.List<serialization.protobuf.Person> 
+  java.util.List<serialization.protobuf.Person>
       getPersonList();
   /**
    * <code>repeated .tutorial.Person person = 1;</code>
@@ -23,7 +23,7 @@ public interface AddressBookOrBuilder extends
   /**
    * <code>repeated .tutorial.Person person = 1;</code>
    */
-  java.util.List<? extends serialization.protobuf.PersonOrBuilder> 
+  java.util.List<? extends serialization.protobuf.PersonOrBuilder>
       getPersonOrBuilderList();
   /**
    * <code>repeated .tutorial.Person person = 1;</code>

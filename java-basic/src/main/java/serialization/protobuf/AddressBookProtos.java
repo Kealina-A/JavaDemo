@@ -16,17 +16,17 @@ public final class AddressBookProtos {
   }
   static final com.google.protobuf.Descriptors.Descriptor
     internal_static_tutorial_Person_descriptor;
-  static final 
+  static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_tutorial_Person_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
     internal_static_tutorial_Person_PhoneNumber_descriptor;
-  static final 
+  static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_tutorial_Person_PhoneNumber_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
     internal_static_tutorial_AddressBook_descriptor;
-  static final 
+  static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_tutorial_AddressBook_fieldAccessorTable;
 
